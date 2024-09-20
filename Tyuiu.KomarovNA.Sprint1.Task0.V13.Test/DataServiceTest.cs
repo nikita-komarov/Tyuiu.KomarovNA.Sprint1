@@ -9,7 +9,8 @@ namespace Tyuiu.KomarovNA.Sprint1.Task0.V13.Test
         public void TestMethod1()
         {
             int answer = 24 / (6 * 2) - 24 / 6 / 4;
-            int result = DataService.CalcExpression(24, 6, 2, 24, 6, 4);
+            DataService dt = new DataService();
+            double result = dt.Calculate();
             Assert.AreEqual(answer, result);
         }
     }

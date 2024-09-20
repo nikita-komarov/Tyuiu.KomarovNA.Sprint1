@@ -41,7 +41,7 @@ namespace Tyuiu.KomarovNA.Sprint1.Task2.V7
             DataService ds = new DataService();
 
             int r = int.Parse(Console.ReadLine());
-            int result = ds.CalculateSquareCircle(r);
+            double result = ds.CalculateSquareCircle(r);
             Console.WriteLine(result);
             Console.ReadKey();
         }
